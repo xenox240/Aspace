@@ -1,4 +1,4 @@
-const Command = require('../Command');
+const Command = require('../structures/Command');
 
 module.exports = class AutoReplyCommand extends Command {
 	constructor(client, info) {
